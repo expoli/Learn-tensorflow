@@ -1,0 +1,8 @@
+name: stats
+dependencies:
+  - numpy
+  - pandas
+  - tensorflow-gpu
+  - tensorflow-datasets
+  - tensorflow-hub
+  - matplotlib
