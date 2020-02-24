@@ -1,4 +1,4 @@
-name: stats
+name: tf-gpu2
 dependencies:
   - numpy
   - pandas
@@ -6,3 +6,4 @@ dependencies:
   - tensorflow-datasets
   - tensorflow-hub
   - matplotlib
+  - seaborn
