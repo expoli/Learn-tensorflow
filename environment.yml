@@ -1,0 +1,9 @@
+name: tf-gpu2
+dependencies:
+  - numpy
+  - pandas
+  - tensorflow-gpu
+  - tensorflow-datasets
+  - tensorflow-hub
+  - matplotlib
+  - seaborn
