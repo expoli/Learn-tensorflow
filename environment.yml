@@ -7,3 +7,6 @@ dependencies:
   - tensorflow-hub
   - matplotlib
   - seaborn
+  - ipython
+  - matplotlib
+  - seaborn
