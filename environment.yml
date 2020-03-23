@@ -12,3 +12,6 @@ dependencies:
   - seaborn
   - pillow
   - keras
+  - opencv
+  - jupyter
+  - scikit-learn
