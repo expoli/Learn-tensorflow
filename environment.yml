@@ -10,3 +10,8 @@ dependencies:
   - ipython
   - matplotlib
   - seaborn
+  - pillow
+  - keras
+  - opencv
+  - jupyter
+  - scikit-learn

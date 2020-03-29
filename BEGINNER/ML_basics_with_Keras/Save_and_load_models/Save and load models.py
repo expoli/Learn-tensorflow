@@ -1,7 +1,7 @@
 from __future__ import absolute_import, division, print_function, unicode_literals
 
 import os
-
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 import tensorflow as tf
 from tensorflow import keras
 
@@ -154,7 +154,7 @@ new_model = tf.keras.models.load_model(saved_model_path)
 # 显示网络结构
 new_model.summary()
 
-model.predict(test_images).shape
+print(model.predict(test_images).shape)
 
 # 必须在评估之前编译模型。
 # 如果仅部署已保存的模型，则不需要此步骤。
